@@ -1,0 +1,116 @@
+/* Navbar.css */
+
+/* Estilo global para la barra de navegación */
+.navbar {
+  background-color: #4CAF50; /* Color de fondo */
+  padding: 1rem; /* Espaciado interno */
+  display: flex; /* Flexbox para alinear elementos */
+  justify-content: center; /* Centra todos los elementos horizontalmente */
+  align-items: center; /* Centra todos los elementos verticalmente */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Contenedor para el contenido de la barra de navegación */
+.navbar-content {
+  display: flex; /* Flexbox para alinear el contenido */
+  flex-direction: column; /* Organiza los elementos en columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar-links {
+  display: flex; /* Flexbox para alinear los enlaces en fila */
+  gap: 1rem; /* Espaciado entre enlaces */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.navbar-link {
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quita el subrayado */
+  font-size: 1.2rem; /* Tamaño del texto */
+  font-weight: normal; /* Fuente normal */
+  transition: color 0.3s ease; /* Transición de color */
+}
+
+.navbar-link:hover {
+  color: #e0e0e0; /* Color de texto al pasar el ratón */
+}
+
+/* Estilo para el botón de inicio de sesión */
+.navbar-login {
+  background-color: #fff; /* Fondo blanco */
+  color: #4CAF50; /* Color del texto */
+  border: 1px solid #4CAF50; /* Borde verde */
+  padding: 0.5rem 1rem; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Quita el subrayado */
+  font-size: 1rem; /* Tamaño del texto */
+  font-weight: bold; /* Fuente en negrita */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones de fondo y color */
+  margin-top: 1rem; /* Espaciado superior */
+}
+
+.navbar-login:hover {
+  background-color: #4CAF50; /* Fondo verde al pasar el ratón */
+  color: #fff; /* Color del texto al pasar el ratón */
+}
+
+
+
+
+/* Navbar.css */
+
+/* Estilo global para la barra de navegación */
+/*
+.navbar {
+    background-color: #4CAF50; /* Color de fondo 
+    padding: 1rem; /* Espaciado interno 
+    display: flex; /* Flexbox para alinear elementos 
+    justify-content: space-between; /* Espacia elementos 
+    align-items: center; /* Centra elementos verticalmente 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera 
+  }
+  
+  /* Estilo para el logotipo 
+  .navbar-logo {
+    font-size: 1.5rem; /* Tamaño del texto del logotipo 
+    color: white; /* Color del texto 
+    text-decoration: none; /* Quita el subrayado 
+    font-weight: bold; /* Fuente en negrita 
+  }
+  
+  /* Estilo para los enlaces de navegación 
+  .navbar-links {
+    display: flex; /* Flexbox para alinear los enlaces en fila 
+    gap: 1rem; /* Espaciado entre enlaces 
+  }
+  
+  .navbar-link {
+    color: white; /* Color del texto 
+    text-decoration: none; /* Quita el subrayado 
+    font-size: 1rem; /* Tamaño del texto 
+    font-weight: normal; /* Fuente normal 
+    transition: color 0.3s ease; /* Transición de color 
+  }
+  
+  .navbar-link:hover {
+    color: #e0e0e0; /* Color de texto al pasar el ratón 
+  }
+  
+  /* Estilo para el botón de inicio de sesión 
+  .navbar-login {
+    background-color: #fff; /* Fondo blanco 
+    color: #4CAF50; /* Color del texto 
+    border: 1px solid #4CAF50; /* Borde verde 
+    padding: 0.5rem 1rem; /* Espaciado interno 
+    border-radius: 5px; /* Bordes redondeados 
+    text-decoration: none; /* Quita el subrayado 
+    font-size: 1rem; /* Tamaño del texto 
+    font-weight: bold; /* Fuente en negrita 
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones de fondo y color 
+  }
+  
+  .navbar-login:hover {
+    background-color: #4CAF50; /* Fondo verde al pasar el ratón 
+    color: #fff; /* Color del texto al pasar el ratón 
+  }*/
